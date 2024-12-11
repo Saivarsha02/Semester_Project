@@ -4,7 +4,7 @@ import json
 from datetime import datetime
 
 # Constants
-API_KEY = "758c2e749d7f42ff838022c0adea1470"  # Replace with your BLS API key
+API_KEY = "09298fcd9b9e437782ed966abc0e6d43"  # Replace with your BLS API key
 SERIES_IDS = ['CES0000000001', 'CES0500000001', 'CES2000000001', 'CES3000000001',
               'CES4000000001', 'CES6000000001', 'CES7000000001', 'CES8000000001',
               'LNS14000000', 'LNS11300000', 'LNS12300000', 'LNS13023621',
