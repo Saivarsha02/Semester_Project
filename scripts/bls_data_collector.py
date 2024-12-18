@@ -65,5 +65,5 @@ def process_bls_data(data):
 if __name__ == "__main__":
     data = fetch_bls_data(SERIES_IDS, START_YEAR, END_YEAR, API_KEY)
     df = process_bls_data(data)
-    df.to_csv("data/labor_stats.csv", index=False)
+    df.to_csv("data/labor_stats.csv", index=False) #storing the collected data in labor_stats named file 
     print("Data collection complete.")
